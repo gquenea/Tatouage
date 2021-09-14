@@ -1,0 +1,218 @@
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+.bloctitre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 40%;
+}
+header > p {
+  font-family: "Playfair Display", serif;
+}
+.date {
+  font-weight: bold;
+}
+header a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+header ul {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 15%;
+  list-style-type: none;
+}
+a > p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boutiqueligne {
+  width: 15%;
+}
+.boutique {
+  margin-top: 70px;
+}
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  margin-top: 100px;
+}
+.galerie {
+  max-width: 1181px;
+  display: flex;
+  flex-direction: column;
+}
+.gal1 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  height: 520px;
+  width: 100%;
+}
+.gal1 > img {
+  margin: 5px;
+}
+.gal2 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  height: 520px;
+  width: 100%;
+}
+.gal2 > img {
+  margin: 5px;
+}
+.gal1 > img:hover {
+  filter: brightness(0.7);
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+.gal2 > img:hover {
+  filter: brightness(0.7);
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+article {
+  font-size: 1.4rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.text {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.ayrton {
+  display: flex;
+  justify-content: space-around;
+}
+.ayrtonall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ayrtontitre {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.ayrtontitre a {
+  color: black;
+  border: solid black;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1rem;
+}
+.ayrtontitre a:hover {
+  background-color: rgb(48, 45, 45);
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+.ayrtonall a {
+  color: black;
+}
+.pierroked {
+  display: flex;
+  justify-content: space-around;
+}
+.pierrokedall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pierrokedtitre {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.pierrokedtitre a {
+  color: black;
+  border: solid black;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1rem;
+}
+.pierrokedtitre a:hover {
+  background-color: rgb(48, 45, 45);
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+.pierrokedall a {
+  color: black;
+}
+.ayrton img {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.contact p {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin: 10px;
+  color: rgb(56, 56, 56);
+}
+.agenda {
+  font-size: 3rem !important;
+}
+.agenda span {
+  color: red;
+}
+.art {
+  display: flex;
+  justify-content: center;
+}
+.art img {
+  margin-top: 50px;
+}
+h2 {
+  text-align: center;
+}
+.red {
+  color: red;
+}
+.bold {
+  font-weight: bold;
+}
+.réseau {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.carte {
+  display: flex;
+  justify-content: center;
+}
+.fin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.droit {
+  font-size: 0.5rem;
+}
